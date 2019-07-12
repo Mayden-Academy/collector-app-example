@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Asap;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.admin-bar {
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+.admin-bar a {
+    color: #ff435c;
+    background: #7FFFD4;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.admin-bar a:hover {
+    background: #74e1b9;
+}
+
+.admin-bar p {
+    color: red;
+    float: left;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.pokemon {
+    padding: 15px;
+    width: 33.33%;
+    float: left;
+}
+
+.pokemon .box {
+    background: #dddddd;
+    border-radius: 15px;
+    padding: 30px;
+    overflow: auto;
+    text-align: center;
+}
+
+form {
+    background: #dddddd;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+form h3 {
+    margin-top: 0;
+}
+
+form div {
+    margin: 0 0 15px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+form label span {
+    color: red;
+}
+
+form input {
+    font-size: 16px;
+}
